@@ -1,0 +1,20 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+}
+
+body {
+  background-color: #ccc;
+  margin: 0;
+  height: 100vh;
+}
+
+.lines {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 40px;
+}
