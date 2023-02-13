@@ -18,3 +18,9 @@ body {
   grid-template-columns: repeat(5, 1fr);
   gap: 40px;
 }
+
+.line {
+  width: 50px;
+  border: 1px dashed #fff;
+  text-align: center;
+}
